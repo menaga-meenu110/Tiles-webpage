@@ -1,0 +1,212 @@
+.navbar {
+    justify-content: center;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .box{
+    
+  }
+  .box div{
+      
+  }
+  .box-1{
+    position: absolute; 
+    z-index: -1; 
+  }
+  .box-2{
+    position: relative; 
+    z-index: 2; 
+  } 
+
+  
+  .box-3{
+    margin-left: 480px;
+    position: absolute;
+    z-index: -1;
+  }
+  .box-4{
+     margin-left: 0px;
+    position: relative;
+    z-index: 2;
+  }
+  .box-5{
+    position: absolute;
+    z-index: -1;
+  }
+  .box-6{
+    position: relative;
+    z-index: 2;
+    position: absolute;
+    z-index: -1;
+  }
+  .box-7{
+    position: relative;
+    z-index: 2;
+  }
+  .box-8{
+    position: absolute;
+    z-index: -1;
+  }
+  .box-9{
+    position: relative;
+    z-index: 2;
+  }
+  .sam{
+
+  }
+  .sam-1{
+    position: absolute; 
+    z-index: -1;
+  }
+  .sam-2{
+    position: relative; 
+  
+    z-index: 2;
+  }
+
+.card:hover{
+  box-shadow: 5px 10px 12px gray;
+}
+
+.scrollable-section {
+  max-height: 500px;  
+  overflow-y: auto;   
+}
+
+/* apply media query */
+
+ 
+.box-1 img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+p {
+  color: black;
+}
+
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container .row .col {
+  width: 17%;
+  margin: 1%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .col {
+    width: 45%; /* Reduce column size on medium screens */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col {
+    width: 100%; /* Stack columns vertically on smaller screens */
+  }
+
+  .carousel-item img {
+    height: auto;
+    width: 100%;
+  }
+
+  .box-2 {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}
+
+/* Small screen adjustments (mobile) */
+@media screen and (max-width: 480px) {
+  .box-2 {
+    text-align: center;
+  }
+
+  .carousel-inner {
+    display: none; /* Optionally hide carousel images on very small screens */
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
+
+
+
+.img-fluid{
+  position: relative;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;  /* Full width on mobile */
+  }
+  
+  .card-title {
+    font-size: 1rem;  /* Smaller title on mobile */
+  }
+}
+
+
+@media (max-width: 768px) {
+  /* Box images */
+  .box-5 img, .box-6 img {
+    width: 100%; /* Full width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+ 
+  .container .row .col {
+    text-align: center; /* Center the images for better look on small screens */
+    margin-bottom: 1rem; /* Add space between columns */
+  }
+
+  .navbar-nav {
+    text-align: center; /* Center navbar items */
+  }
+
+  .card {
+    width: 100%; /* Full width for cards on mobile */
+  }
+
+  .pri p {
+    margin-left: 0; /* Remove left margin */
+    text-align: justify; /* Ensure text is justified */
+  }
+
+  /* Carousel images */
+  .carousel-item img {
+    width: 100%; /* Make carousel images fit the screen */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+  
+
+
+
+
+
+
